@@ -1,0 +1,13 @@
+# API
+financial-audit-api/venv/
+financial-audit-api/__pycache__/
+financial-audit-api/**/__pycache__/
+financial-audit-api/*.pyc
+financial-audit-api/**/*.pyc
+financial-audit-api/models_backup/
+# UI
+financial-audit-ui/node_modules/
+
+# Misc
+.DS_Store
+*.log

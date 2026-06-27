@@ -1,0 +1,56 @@
+# ===== CORE API =====
+fastapi==0.111.0
+uvicorn==0.30.1
+python-multipart==0.0.9
+pydantic==2.7.1
+
+# ===== DATABASE =====
+pymongo==4.7.2
+
+# ===== FILE PARSING =====
+pypdf==4.2.0
+python-docx==1.1.2
+pandas==2.2.2
+openpyxl==3.1.4
+pdfplumber==0.11.0
+beautifulsoup4==4.12.3
+requests==2.32.3
+
+# ===== TORCH (cài riêng, không qua file này) =====
+# pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cpu
+
+# ===== AI / EMBEDDING =====
+# huggingface-hub phải < 1.0 để tương thích transformers 4.44.0
+huggingface-hub==0.24.6
+tokenizers==0.19.1
+transformers==4.44.0
+sentence-transformers==2.7.0
+
+# ===== GOOGLE GEMINI =====
+google-genai==1.10.0
+
+# ===== LANGCHAIN (dùng bộ 0.2.x đồng bộ nhau) =====
+langchain-core==0.2.43
+langchain==0.2.17
+langchain-community==0.2.19
+langchain-text-splitters==0.2.4
+langchain-google-genai==1.0.10
+langchain-openai==0.1.25
+langsmith==0.1.147
+
+# ===== RAG EVALUATION =====
+# datasets 2.20.0 cần huggingface-hub>=0.21.0 - tương thích với 0.24.6
+datasets==2.20.0
+ragas==0.2.0
+nltk==3.8.1
+
+# ===== UTILITIES =====
+numpy==1.26.4
+rank-bm25==0.2.2
+scikit-learn==1.5.0
+scipy==1.13.1
+tqdm==4.66.4
+python-dotenv==1.0.1
+tenacity==8.5.0
+openai==1.40.0
+tiktoken==0.7.0
