@@ -247,7 +247,7 @@ Hệ thống được đánh giá định lượng bằng framework **RAGAS** tr
 - **Context Precision** — độ chính xác của ngữ cảnh truy xuất
 - **Faithfulness** — độ trung thực của câu trả lời so với văn bản gốc
 - **Answer Relevancy** — độ liên quan của câu trả lời so với câu hỏi
-- **Context Recall** - độ bao phủ của ngữ cảnh truy xuất
+- **Context Recall** — độ bao phủ của ngữ cảnh truy xuất
 
 Chi tiết quy trình và kết quả đánh giá nằm trong `evaluate.ipynb` và `ragas_50_result.csv`.
 
